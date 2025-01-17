@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+  @font-face {
+    font-family: 'Red Hat';
+    font-style: normal;
+    font-weight: 400,500,700;
+    font-display: swap;
+    src: url(/public/fonts/RedHatText-VariableFont_wght.ttf) format('woff2');
+  }
+}
