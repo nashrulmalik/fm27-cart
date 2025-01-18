@@ -2,11 +2,6 @@
 import React, { createContext, useState, useContext } from 'react';
 import data from '../data.json';
 
-interface CartItem {
-  id: number;
-  quantity: number;
-}
-
 interface CartContextType {
   cart: number[];
   total: number;
